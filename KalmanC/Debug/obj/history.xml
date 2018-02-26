@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.3 x86_64-pc-cygwin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_boot -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_lib\include\MatrixFunctions -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries\Include -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_lib -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries\Include\NewtonGauss -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries\Include\KalmanFilter -ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_lib\include">
+      <target file="syscalls.o" lastModified="158a676d276">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="156fb63625f"/>
+      </target>
+      <target file="arm_mat_scale_q31.o" lastModified="158a6770a1c">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_init_q31.o" lastModified="158a676c715">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_mult_fast_q15.o" lastModified="158a676dcef">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_mult_q31.o" lastModified="158a676acdd">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="misc.o" lastModified="158a676f4c6">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="156fb682387"/>
+      </target>
+      <target file="i2c.o" lastModified="158a6769ac8">
+         <source file="..\..\..\Libraries\Source\i2c.c" lastModified="156fd64ffea"/>
+      </target>
+      <target file="mpu9250.o" lastModified="158a676a54b">
+         <source file="..\..\..\Libraries\Source\mpu9250.c" lastModified="158a672c78f"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="158a6770330">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="157a54d89fb"/>
+      </target>
+      <target file="usart.o" lastModified="158a67710e4">
+         <source file="..\..\..\Libraries\Source\usart.c" lastModified="158414e7318"/>
+      </target>
+      <target file="arm_mat_sub_q15.o" lastModified="158a676d5f8">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_add_q15.o" lastModified="158a677144e">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="158a676ca99">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="156fb63a139"/>
+      </target>
+      <target file="arm_mat_mult_fast_q31.o" lastModified="158a677069d">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="158a676a879">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15761fca7fb"/>
+      </target>
+      <target file="arm_mat_trans_q15.o" lastModified="158a676d9b7">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_add_f32.o" lastModified="158a67697ae">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_f32.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_sub_f32.o" lastModified="158a676e432">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_f32.c" lastModified="156d3d6415d"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="158a676c34c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="157aabbdf69"/>
+      </target>
+      <target file="arm_mat_sub_q31.o" lastModified="158a676ff18">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_add_q31.o" lastModified="158a676b0c7">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="158a676b41d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15819733625"/>
+      </target>
+      <target file="arm_mat_trans_f32.o" lastModified="158a676e78f">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_f32.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_scale_q15.o" lastModified="158a676e027">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_init_q15.o" lastModified="158a676b7e7">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_trans_q31.o" lastModified="158a676fba5">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q31.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_mult_q15.o" lastModified="158a676f849">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q15.c" lastModified="133d876b490"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="158a676eddc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="156fb63bdbf"/>
+      </target>
+      <target file="arm_mat_inverse_f32.o" lastModified="158a676946e">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_inverse_f32.c" lastModified="156d471eb80"/>
+      </target>
+      <target file="main.o" lastModified="158a67e2cb7">
+         <source file="..\..\..\main.c" lastModified="158a67e0d02"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="158a676cdd5">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15819733648"/>
+      </target>
+      <target file="Kalman.o" lastModified="158a676f1bb">
+         <source file="..\..\..\Libraries\Source\KalmanFilter\Kalman.c" lastModified="158a67500d3"/>
+      </target>
+      <target file="arm_mat_scale_f32.o" lastModified="158a676eaa1">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_f32.c" lastModified="133d876b490"/>
+      </target>
+      <target file="arm_mat_init_f32.o" lastModified="158a676bb3e">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_f32.c" lastModified="157c908bcbf"/>
+      </target>
+      <target file="NewtonGauss.o" lastModified="158a676a0c1">
+         <source file="..\..\..\Libraries\Source\NewtonGauss\NewtonGauss.c" lastModified="158a6762954"/>
+      </target>
+      <target file="arm_mat_mult_f32.o" lastModified="158a6770db0">
+         <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_f32.c" lastModified="133d876b490"/>
+      </target>
+   </processor>
+</history>

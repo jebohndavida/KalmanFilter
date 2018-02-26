@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_boot /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries\Include\NewtonGauss /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries\Include\KalmanFilter /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_lib\include /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_lib\include\MatrixFunctions /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries\Include /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_lib /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="156fb63a139">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_f32.c" lastModified="156d3d6415d">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="156fb682368">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\usart.c" lastModified="158414e7318">
+         <include file="..\..\..\Libraries\Include\usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="156fb682387">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="157aabbdf69">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="156fb638ce0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_inverse_f32.c" lastModified="156d471eb80">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\i2c.c" lastModified="156fd64ffea">
+         <include file="..\..\..\Libraries\Include\i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="1581973363b">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="156fb63a129">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\i2c.h" lastModified="156fbcf1349">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="156fb63bdbf">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="156fb63bda9">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\usart.h" lastModified="15780eee8df">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\main.h" lastModified="15849424095">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="156fb63ecb5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\KalmanFilter\Kalman.h" lastModified="1584a044f4f">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15761fca7fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\mpu9250.h" lastModified="1584a11328e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_f32.c" lastModified="157c908bcbf">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="157af9615d4">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\NewtonGauss\NewtonGauss.h" lastModified="15827c545d7">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15819733649">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="157a54d89fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15819733625">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="156fb640e66">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15819733648">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_boot /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries\Include\NewtonGauss /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries\Include\KalmanFilter /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_lib\include /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_lib\include\MatrixFunctions /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries\Include /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\cmsis_lib /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_StackCorrection\Libraries">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="156fb63a139">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_f32.c" lastModified="156d3d6415d">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="156fb682368">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\usart.c" lastModified="158414e7318">
+         <include file="..\..\..\Libraries\Include\usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="156fb682387">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="157aabbdf69">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="156fb638ce0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_inverse_f32.c" lastModified="156d471eb80">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\i2c.c" lastModified="156fd64ffea">
+         <include file="..\..\..\Libraries\Include\i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="1581973363b">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="156fb63a129">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\i2c.h" lastModified="156fbcf1349">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="156fb63bdbf">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="156fb63bda9">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\usart.h" lastModified="15780eee8df">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\main.h" lastModified="15849424095">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="156fb63ecb5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\KalmanFilter\Kalman.h" lastModified="1584a044f4f">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15761fca7fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\mpu9250.h" lastModified="1584a11328e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_f32.c" lastModified="157c908bcbf">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="157af9615d4">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\NewtonGauss\NewtonGauss.h" lastModified="15827c545d7">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15819733649">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="157a54d89fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15819733625">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="156fb640e66">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15819733648">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_boot /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_lib\include\MatrixFunctions /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries\Include /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_lib /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries\Include\NewtonGauss /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\Libraries\Include\KalmanFilter /ID:\GoogleDrive\EngEletronica - USP\TCC\Hardware\CoIDEProjects\KalmanC_Final\cmsis_lib\include">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="156fb63a139">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_f32.c" lastModified="156d3d6415d">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="156fb682368">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h" lastModified="156d472089c">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\string.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\usart.c" lastModified="158414e7318">
+         <include file="..\..\..\Libraries\Include\usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="156fb682387">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="157aabbdf69">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="156fb638ce0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_inverse_f32.c" lastModified="156d471eb80">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\i2c.c" lastModified="156fd64ffea">
+         <include file="..\..\..\Libraries\Include\i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="156fb637326">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="156fb6372f7">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="1581973363b">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\mpu9250.c" lastModified="158a672c78f">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+         <include file="..\..\..\Libraries\Include\mpu9250.h"/>
+         <include file="..\..\..\Libraries\Include\i2c.h"/>
+         <include file="..\..\..\Libraries\Include\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="156fb63a129">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\i2c.h" lastModified="156fbcf1349">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="156fb63bdbf">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_scale_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="156fb636647">
+         <sysinclude file="C:\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\sys\types.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\sys\stat.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="156fb63bda9">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="1581973807a">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\usart.h" lastModified="15780eee8df">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="156fb637346">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\KalmanFilter\Kalman.c" lastModified="158a67500d3">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+         <include file="..\..\..\Libraries\Include\KalmanFilter\Kalman.h"/>
+         <include file="..\..\..\Libraries\Include\main.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\main.h" lastModified="15849424095">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="156fb63ecb5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\KalmanFilter\Kalman.h" lastModified="1584a044f4f">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15761fca7fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\mpu9250.h" lastModified="1584a11328e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_f32.c" lastModified="157c908bcbf">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_f32.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Source\NewtonGauss\NewtonGauss.c" lastModified="158a6762954">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+         <include file="..\..\..\Libraries\Include\NewtonGauss\NewtonGauss.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_init_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_q31.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_add_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_sub_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="157af9615d4">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+         <sysinclude file="C:\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\Libraries\Include\NewtonGauss\NewtonGauss.h" lastModified="15827c545d7">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15819733649">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="157a54d89fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_mult_fast_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15819733625">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="156fb640e66">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\MatrixFunctions\arm_mat_trans_q15.c" lastModified="133d876b490">
+         <include file="..\..\..\cmsis_lib\include\MatrixFunctions\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15819733648">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

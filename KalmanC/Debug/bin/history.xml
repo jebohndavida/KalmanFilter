@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=KalmanC.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\KalmanC -TC:\CooCox\CoIDE\configuration\ProgramData\KalmanC/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="KalmanC.elf" lastModified="158a67e326a">
+         <source file="..\obj\arm_mat_inverse_f32.o" lastModified="158a676946e"/>
+         <source file="..\obj\arm_mat_add_f32.o" lastModified="158a67697ae"/>
+         <source file="..\obj\i2c.o" lastModified="158a6769ac8"/>
+         <source file="..\obj\NewtonGauss.o" lastModified="158a676a0c1"/>
+         <source file="..\obj\mpu9250.o" lastModified="158a676a54b"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="158a676a879"/>
+         <source file="..\obj\arm_mat_mult_q31.o" lastModified="158a676acdd"/>
+         <source file="..\obj\arm_mat_add_q31.o" lastModified="158a676b0c7"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="158a676b41d"/>
+         <source file="..\obj\arm_mat_init_q15.o" lastModified="158a676b7e7"/>
+         <source file="..\obj\arm_mat_init_f32.o" lastModified="158a676bb3e"/>
+         <source file="..\obj\main.o" lastModified="158a67e2cb7"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="158a676c34c"/>
+         <source file="..\obj\arm_mat_init_q31.o" lastModified="158a676c715"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="158a676ca99"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="158a676cdd5"/>
+         <source file="..\obj\syscalls.o" lastModified="158a676d276"/>
+         <source file="..\obj\arm_mat_sub_q15.o" lastModified="158a676d5f8"/>
+         <source file="..\obj\arm_mat_trans_q15.o" lastModified="158a676d9b7"/>
+         <source file="..\obj\arm_mat_mult_fast_q15.o" lastModified="158a676dcef"/>
+         <source file="..\obj\arm_mat_scale_q15.o" lastModified="158a676e027"/>
+         <source file="..\obj\arm_mat_sub_f32.o" lastModified="158a676e432"/>
+         <source file="..\obj\arm_mat_trans_f32.o" lastModified="158a676e78f"/>
+         <source file="..\obj\arm_mat_scale_f32.o" lastModified="158a676eaa1"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="158a676eddc"/>
+         <source file="..\obj\Kalman.o" lastModified="158a676f1bb"/>
+         <source file="..\obj\misc.o" lastModified="158a676f4c6"/>
+         <source file="..\obj\arm_mat_mult_q15.o" lastModified="158a676f849"/>
+         <source file="..\obj\arm_mat_trans_q31.o" lastModified="158a676fba5"/>
+         <source file="..\obj\arm_mat_sub_q31.o" lastModified="158a676ff18"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="158a6770330"/>
+         <source file="..\obj\arm_mat_mult_fast_q31.o" lastModified="158a677069d"/>
+         <source file="..\obj\arm_mat_scale_q31.o" lastModified="158a6770a1c"/>
+         <source file="..\obj\arm_mat_mult_f32.o" lastModified="158a6770db0"/>
+         <source file="..\obj\usart.o" lastModified="158a67710e4"/>
+         <source file="..\obj\arm_mat_add_q15.o" lastModified="158a677144e"/>
+      </target>
+   </processor>
+</history>
